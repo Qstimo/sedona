@@ -1,0 +1,81 @@
+.title-background {
+    
+    background-image: url("../image/montain.jpg");
+    background-size: 1200px 485px;
+    background-repeat: no-repeat;
+    background-color: #83B3D3;
+}
+
+/*catalog*/
+
+.catalog-filtre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .catalog-button-contaier{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    margin-left: 64px;
+  }
+
+  .filter-reset {
+    align-self: center;
+  
+    color: #ffffff;
+    background-color: transparent;
+  
+    font-family: inherit;
+    font-size: 18px;
+  }
+
+  .control-label{
+    font-weight: 400;
+    font-size: 18px;
+  }
+ .catalog-price-fieldset{
+  width: 290px;
+  margin-left: 95px;
+ }
+
+ .catalog-filtre-title{
+ font-weight: 700;
+  font-size: 20px;
+ }
+
+ .range-input {
+  color: #ffffff;
+  background-color: transparent;
+
+  font-family: inherit;
+  font-size: 18px;
+}
+.catalog-price-fieldse{
+  display: flex;
+  justify-content: space-between;
+        }
+
+.range-title {
+  opacity: 0.3;
+  width: 143px;
+}
+
+/*validation*/
+
+.validation-catalog {
+width: 1060px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.product-catalog{
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  flex-direction: column;
+
+}
